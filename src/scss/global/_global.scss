@@ -1,0 +1,10 @@
+body {
+  font-weight: $fontTextPrimary;
+  font-weight: 500;
+  font-size: 14px;
+  color: $colorTextPrimary;
+}
+.container {
+  min-width: 320px;
+  max-width: 1170px;
+}
