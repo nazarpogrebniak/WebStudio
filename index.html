@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/src/css/home.css">
   </head>
   <body>
     <header class="header">
@@ -23,19 +27,20 @@
             </li>
             <li class="nav__item"><a href="" class="nav__link">Контакти</a></li>
           </ul>
+          <ul class="contacts">
+            <li class="contacts__item">
+              <a href="mailto:info@devstudio.com" class="contacts__link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contacts__item">
+              <a href="tel:+380961111111" class="contacts__link"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
         </nav>
-        <ul class="contacts">
-          <li class="contacts__item">
-            <a href="mailto:info@devstudio.com" class="contacts__link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="contacts__item">
-            <a href="tel:+380961111111" class="contacts__link"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
+        <button class="button-menu">Menu</button>
       </div>
     </header>
     <main class="main-page">
@@ -175,3 +180,66 @@
     </footer>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="adventages">
+  <div class="container adventages__container">
+    <ul class="adventages__list">
+      <li class="adventages__item adventage">
+        <div class="adventage__photo">
+          </svg>
+        </div>
+        <div class="adventage__title">УВАГА ДО ДЕТАЛЕЙ</div>
+        <p class="adventage__text">
+          Ідейні міркування, і навіть початок повсякденної роботи з
+          формування позиції.
+        </p>
+      </li>
+      <li class="adventages__item adventage">
+        <div class="adventage__photo">
+          <svg class="adventage__icon">...</svg>
+        </div>
+        <div class="adventage__title">ПУНКТУАЛЬНІСТЬ</div>
+        <p class="adventage__text">
+          Завдання організації, особливо рамки і місце навчання кадрів
+          тягне у себе.
+        </p>
+      </li>
+      <li class="adventages__item adventage">
+        <div class="adventage__photo">
+          <svg class="adventage__icon">...</svg>
+        </div>
+        <div class="adventage__title">ПЛАНУВАННЯ</div>
+        <p class="adventage__text">
+          Так само консультація з широким активом значною мірою зумовлює.
+        </p>
+      </li>
+      <li class="adventages__item adventage">
+        <div class="adventage__photo">
+          <svg class="adventage__icon">...</svg>
+        </div>
+        <div class="adventage__title">СУЧАСНІ ТЕХНОЛОГІЇ</div>
+        <p class="adventage__text">
+          Значимість цих проблем настільки очевидна, що реалізація
+          планових завдань.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
